@@ -16,6 +16,5 @@ while (user != computer):
     elif(user>computer):
         NoOFAttempts += 1
         print("Lower Number!")
-
 else:
     print(f"You won in {NoOFAttempts} attempts")
